@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 echo "This script will help you install the tools needed for javascript development"
 echo "Authors: Ahmed Ali and Brian Mituka"
@@ -37,6 +37,3 @@ git checkout v4.7.0
 ./autogen.sh
 make
 sudo make install
-
-
-
