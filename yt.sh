@@ -1,4 +1,6 @@
 #!/bin/bash
+# downloading videos from youtube simple and easy
+
 
 youtube-dl $1
 
