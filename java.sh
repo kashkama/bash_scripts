@@ -11,7 +11,7 @@ mkdir ip8
 cd ip8
 
 #initialise a java application with gradle
-gradle init --type java-application 
+gradle init --type java-application
 
 create other files and initialise git
 git init
@@ -45,7 +45,7 @@ cd ../../../../..
 #cd ..
 echo "your java application is ready!!"
 
-#open in a text editor i use sublime!
-subl .
+#open in a text editor i use atom!
+atom .
 
-echo "AUTHORS: Ahmed Ali and Brian Mituka"
+echo "AUTHORS: Owen"
