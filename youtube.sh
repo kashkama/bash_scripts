@@ -7,4 +7,5 @@ cd
 sudo apt-get install youtube-dl
 sudo apt-get update
 
+# download https://www.youtube.com/watch?v=UKRe123kbIw to get started with lubuntu
 echo "installed youtube-dl"
