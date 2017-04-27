@@ -39,9 +39,9 @@ cd
 echo "gem: --no-document" > ~/.gemrc
 
 # bundler manages your dependencies
-sudo gem install bundler
+gem install bundler
 
 # rake helps with database migrations creation
-sudo gem install rake
+gem install rake
 
 echo "installed ruby and gems"
