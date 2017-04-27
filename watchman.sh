@@ -8,6 +8,7 @@ cd
 # libtool is a library tool designed to simplify the process of building software with complex static/shared library dependencies via a portable interface
 sudo apt-get install libtool
 sudo apt-get update
+sudo apt-get install python-dev
 cd
 #install watchman
 git clone https://github.com/facebook/watchman.git
