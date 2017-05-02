@@ -5,7 +5,6 @@
 echo "installing ruby on rails"
 
 cd
-sudo apt install ruby-railties
 sudo gem install rails
 
 # update repositories
