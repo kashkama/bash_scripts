@@ -11,3 +11,4 @@ npm install browserify --save-dev
 npm install gulp-concat --save-dev
 npm install gulp-uglify --save-dev
 npm install gulp-util --save-dev
+npm install del --save-dev
