@@ -14,3 +14,7 @@ npm install gulp-util --save-dev
 npm install del --save-dev
 npm install jshint --save-dev
 npm install gulp-jshint --save-dev
+
+echo" bower deals with front-end packages"
+cd
+npm install bower -g
