@@ -8,3 +8,4 @@ echo "cd into your project"
 
 npm install gulp --save-dev
 npm install browserify --save-dev
+npm install gulp-concat --save-dev
