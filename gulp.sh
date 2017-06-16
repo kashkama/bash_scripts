@@ -10,3 +10,4 @@ npm install gulp --save-dev
 npm install browserify --save-dev
 npm install gulp-concat --save-dev
 npm install gulp-uglify --save-dev
+npm install gulp-util --save-dev
