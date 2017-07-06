@@ -25,5 +25,12 @@ apm install linter-htmlhint
 apm install linter-jshint
 apm install minimap
 apm install pigments
-
+apm install platformio-ide-terminal
+#atom-live-server
+#atm-transpose
+#atom-ternjs
+#es6-javascript
+#atom-wrap-in-tag
+#linster-eslint
+#language-javascript-jsx
 echo "installed all themes and packages"
