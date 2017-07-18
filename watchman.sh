@@ -14,7 +14,7 @@ cd
 git clone https://github.com/facebook/watchman.git
 cd watchman
 #ensure you check-out the latest version currently it's 4.7
-git checkout v4.7.0
+git checkout -b v4.7.0
 ./autogen.sh
 ./configure
 make
