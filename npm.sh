@@ -22,6 +22,15 @@ cd node-v6.9.2
 make
 sudo make install # installs this version of Node.js into a system directory
 ####################################################################
+# alternative
+# download zip file from here
+ https://nodejs.org/dist/v6.9.2/node-v6.9.2-linux-x64.tar.xz
+ sudo mv  Downloads/node-v6.9.4-linux-x64.tar.xz /usr/local
+#  Use the below command to extract into appropriate directories in /usr/local
+sudo tar --strip-components 1 -xf node-v6.9.4-linux-x64.tar.xz
+# verify 
+node -v
+######################################################################
 
 # install gulp globally
 sudo npm install gulp -g
