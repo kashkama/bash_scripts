@@ -10,13 +10,10 @@ echo "updated vscode"
 {
     "files.autoSave": "afterDelay",
     "workbench.iconTheme": "material-icon-theme",
-    // "editor.fontFamily": "'Ubuntu Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
     "workbench.colorTheme": "Monokai Dark Vibrant",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -1.2,
     "workbench.startupEditor": "newUntitledFile",
     "editor.multiCursorModifier": "ctrlCmd",
-    // "editor.fontSize": 17,
-    // "terminal.integrated.fontSize": 13,
     "java.errors.incompleteClasspath.severity": "ignore",
     "window.menuBarVisibility": "toggle",
     "breadcrumbs.enabled": false,
@@ -36,12 +33,11 @@ echo "updated vscode"
     "terminal.integrated.fontWeightBold": "normal",
     /*                 xcode settings                     */ 
     "editor.cursorStyle": "line-thin",
-//   "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontFamily": "'Ubuntu Mono'",
   "editor.fontLigatures": true,
   "editor.fontSize": 18,
   "editor.fontWeight": "400",
-  "editor.lineHeight": 19,
+  "editor.lineHeight": 20,
   "terminal.integrated.fontSize": 15.5,
   "terminal.integrated.lineHeight": 1.23,
   "editor.minimap.enabled": true,
@@ -52,7 +48,7 @@ echo "updated vscode"
   "workbench.activityBar.visible": false,
   "workbench.editor.tabCloseButton": "right",
   "workbench.editor.showIcons": false,
-//   "window.nativeTabs": true,
+  "window.nativeTabs": true,
   "editor.tokenColorCustomizations": {
     "[Xcode Partial (Light)]": {
       "textMateRules": [
