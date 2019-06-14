@@ -17,7 +17,6 @@ settings to code
     }
 
 installed themes :{
-    1337 theme
     Beautify
     Debugger for Chrome
     Eslint
@@ -27,6 +26,12 @@ installed themes :{
     Material Icon theme
     React-Beautify
     vs color picker
+    auto close tag
+    auto rename tag
+    autoprefixer
+    better haml
+    monokai vibrant
+    ruby
     
 }
 
