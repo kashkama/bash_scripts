@@ -9,16 +9,34 @@ echo "updated vscode"
 # vscode setting.json file
 {
     "files.autoSave": "afterDelay",
+    "workbench.startupEditor": "",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Monokai Dark Vibrant",
+    "workbench.colorTheme": "Monokai Vibrant",
+    "workbench.editor.tabCloseButton": "right",
+    "workbench.activityBar.visible": true,
+    "workbench.editor.showIcons": false,
     "window.zoomLevel": -1.2,
+    "editor.cursorStyle": "line-thin",
+    "editor.fontFamily": "'Ubuntu Mono'",
+    "editor.fontWeight": "400",
+    "editor.minimap.enabled": true,
+    "editor.lineHeight": 20,
+    "editor.fontSize": 18,
     "editor.multiCursorModifier": "ctrlCmd",
-    "java.errors.incompleteClasspath.severity": "ignore",
-    "breadcrumbs.enabled": false,
+    "editor.fontLigatures": true,
+    "editor.overviewRulerBorder": false,
+    "editor.renderIndentGuides": true,
+    "editor.renderLineHighlight": "all",
+    "editor.minimap.renderCharacters": false,
     "editor.detectIndentation": false,
+    "editor.suggestSelection": "first",
+    "breadcrumbs.enabled": false,
+    "terminal.integrated.lineHeight": 1.23,
+    "terminal.integrated.fontSize": 15.5,
+    "terminal.integrated.fontWeightBold": "normal",
+    "java.errors.incompleteClasspath.severity": "ignore",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "liveServer.settings.donotShowInfoMsg": true,
-    "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "files.exclude": {
         "**/.classpath": true,
@@ -26,52 +44,32 @@ echo "updated vscode"
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "terminal.integrated.fontWeightBold": "normal",
   /*                 xcode settings                     */ 
-    "editor.cursorStyle": "line-thin",
-    "editor.fontFamily": "'Ubuntu Mono'",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 18,
-    "editor.fontWeight": "400",
-    "editor.lineHeight": 20,
-    "terminal.integrated.fontSize": 15.5,
-    "terminal.integrated.lineHeight": 1.23,
-    "editor.minimap.enabled": true,
-    "editor.minimap.renderCharacters": false,
-    "editor.overviewRulerBorder": false,
-    "editor.renderIndentGuides": false,
-    "editor.renderLineHighlight": "all",
-    "workbench.activityBar.visible": true,
-    "workbench.editor.tabCloseButton": "right",
-    "workbench.editor.showIcons": false,
     "editor.tokenColorCustomizations": {
-        "[Xcode Partial (Light)]": {
-        "textMateRules": [
-            {
-            "scope": "comment",
-            "settings": {
-                "foreground": "#536579",
-                "fontStyle": "italic"
-            }
-            }
-        ]
-        },
         "[Monokai Dark Vibrant]": {
-        "textMateRules": [
-            {
-            "scope": "source",
-            "settings": {
-                "foreground": "#FFFFFF"
-            }
-            },
-            {
-            "scope": "comment",
-            "settings": {
-                "foreground": "#6C7986",
-                "fontStyle": "italic"
-            }
-            }
-        ]
+            "textMateRules": [
+                {
+                    "scope": "source",
+                    "settings": {
+                        "foreground": "#FFFFFF"
+                    }
+                },
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#6C7986",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Built-in constant",
+                    "scope": "constant.language",
+                    "settings": {
+                        "foreground": "#AE81FF",
+                        "fontStyle": ""
+                    }
+                },
+            ]
         }
     }
 }
